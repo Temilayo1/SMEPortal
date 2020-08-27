@@ -16,7 +16,7 @@
             </li>
             <li class="nav-item nav-category">Menu</li>
             <li class="nav-item">
-              <a class="nav-link" href="/home">
+              <a class="nav-link" href="/expert/home_ex">
                 <i class="menu-icon typcn typcn-document-text"></i>
                 <span class="menu-title">Dashboard</span>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -38,10 +38,10 @@
               <div class="collapse" id="auth">
                     <ul class="nav flex-column sub-menu">
                     <li class="nav-item">
-                    <a class="nav-link" href="new_request"> New Request </a>
+                    <a class="nav-link" href="/expert/viewRequest"> View Request </a>
                   </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="/myRequests">My Requests </a>
+                    <a class="nav-link" href="/expert/reply_requests">Reply Requests </a>
                   </li>
                   
                   
@@ -60,27 +60,20 @@
               </a>
             </li>
             
-            <li class="nav-item">
-              <a class="nav-link" href="/expertProfile">
-                <i class="menu-icon typcn typcn-bell"></i>
-                <span class="menu-title">Experts Profile</span>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <i class="fa fa-user-md"></i>
-              </a>
-            </li>
+          
             <li class="nav-item">
               <a class="nav-link" href="/news">
                 <i class="menu-icon typcn typcn-user-outline"></i>
                 <span class="menu-title">News & Events</span>
-                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <i class="fa fa-bullhorn"></i>
               </a>
             </li>
              <li class="nav-item">
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="/profile">
                 <i class="menu-icon typcn typcn-shopping-bag"></i>
                 <span class="menu-title">My Profile</span>
-                &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <i class="fa fa-user-md"></i>
               </a>
             </li>

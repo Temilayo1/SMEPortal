@@ -7,7 +7,7 @@
         
            <div class="main-panel">
           <div class="content-wrapper"> 
-          <h4 class="card-title">My Requests</h4>
+          <h4 class="card-title">Active Subscriptions</h4>
                     <div class="containerr">
   <div class="row">
     <div class="col-12">
@@ -15,22 +15,19 @@
         <thead>
           <tr>
             <th scope="col">S/N</th>
-            <th scope="col">Details</th>
-            <th scope="col">Subject</th>
-            <th scope="col">Views</th>
-            <th scope="col">Stautus</th>
+            <th scope="col">Sub Name</th>
+            <th scope="col">Duration</th>
+            <th scope="col">Rate</th>
+            
             <th scope="col">Actions</th>
           </tr>
         </thead>
         <tbody>
           <tr>
             <th scope="row">1</th>
-            <td>Who is this?</td>
-            <td>Bugging</td>
+            <td>Static</td>
+            <td>6 Months</td>
             <td>2,846</td>
-            <td>
-                            <label class="badge badge-danger">Pending</label>
-                          </td>
             <td>
            <button type="button" class="btn btn-primary2"><i class="fa fa-eye"></i></button>
              <a href ="/new_request">    <button type="button" class="btn btn-success"><i class="fa fa-edit"></i></button></a>
@@ -39,12 +36,9 @@
           </tr>
           <tr>
             <th scope="row">2</th>
-            <td>Review needed on my latest building project</td>
-            <td>Review </td>
+            <td>Dynamic</td>
+            <td>12 Months </td>
             <td>3,417</td>
-            <td>
-                            <label class="badge badge-warning">In progress</label>
-                          </td>
             <td>
               <button type="button" class="btn btn-primary2"><i class="fa fa-eye"></i></button>
             <a href ="/new_request">   <button type="button" class="btn btn-success"><i class="fa fa-edit"></i></button>
@@ -53,12 +47,9 @@
           </tr>
           <tr>
             <th scope="row">3</th>
-            <td>Need a police report for a car crash</td>
-            <td>Suggestions</td>
+            <td>Platinum</td>
+            <td>18 Months</td>
             <td>1,234</td>
-            <td>
-                            <label class="badge badge-info">Fixed</label>
-                          </td>
             <td>
               <button type="button" class="btn btn-primary2"><i class="fa fa-eye"></i></button>
              <a href ="/new_request">  <button type="button" class="btn btn-success"><i class="fa fa-edit"></i></button>
@@ -67,12 +58,9 @@
           </tr>
           <tr>
             <th scope="row">4</th>
-            <td>Business Loan needed</td>
-            <td>Loan</td>
+            <td>Gold</td>
+            <td>24 Months</td>
             <td>3,417</td>
-            <td>
-                            <label class="badge badge-success">Completed</label>
-                          </td>
             <td>
               <button type="button" class="btn btn-primary2"><i class="fa fa-eye"></i></button>
             <a href ="/new_request">   <button type="button" class="btn btn-success"><i class="fa fa-edit"></i></button>
@@ -88,7 +76,7 @@
   
    <br>
    <br>
-   <a href= "/new_request"> <button type="submit" class="btn btn-success mr-2">New Request</button>
+   <a href= "#"> <button type="submit" class="btn btn-success mr-2">Add New </button>
    
 </div>
 @endsection

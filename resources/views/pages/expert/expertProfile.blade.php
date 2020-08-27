@@ -94,7 +94,7 @@
           <div style="display: flex">
 <div class="cardd">
   
-  <h4>Kim Modupe</h4>
+  <h4>KIm Modupe</h4>
   <p class="titlee">CEO & Founder, Example</p>
   <p>Harvard University</p>
  

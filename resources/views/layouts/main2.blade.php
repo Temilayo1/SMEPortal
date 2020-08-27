@@ -45,7 +45,7 @@
  <div id="app">
  
             @include('inc.navbar')
-            @include('inc.sidebar')
+            @include('inc.sidebar2')
             @yield('content')
            
     </div>

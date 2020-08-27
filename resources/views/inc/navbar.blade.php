@@ -12,7 +12,7 @@
     </ul>
     <form class="ml-auto search-form d-none d-md-block" action="#">
       <div class="form-group">
-        <h4 class="form">Michael Stevens SME Portal </h4>
+        <h4 class="form">Michael Stevens SME Advisory Portal </h4>
       </div>
     </form>
     <ul class="navbar-nav ml-auto">

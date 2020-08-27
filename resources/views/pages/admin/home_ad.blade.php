@@ -1,4 +1,4 @@
-@extends ('layouts.main')
+@extends ('layouts.main1')
 
 @section ('content')
 
@@ -18,7 +18,7 @@
                         <div class="d-flex">
                           <div class="wrapper">
                             
-                            <h5 class="mb-0 font-weight-medium text-primary">My Requests</h5>
+                            <h5 class="mb-0 font-weight-medium text-primary">No Of Active Requests</h5>
                             <h3 class="mb-0 font-weight-semibold">13</h3>
                           </div>
                           <div class="wrapper my-auto ml-auto ml-lg-4">
@@ -30,7 +30,7 @@
                         <div class="d-flex">
                           <div class="wrapper">
                             
-                            <h5 class="mb-0 font-weight-medium text-primary">Completed</h5>
+                            <h5 class="mb-0 font-weight-medium text-primary">No Of Pending Requests</h5>
                             <h3 class="mb-0 font-weight-semibold">5</h3>
                           </div>
                           <div class="wrapper my-auto ml-auto ml-lg-4">
@@ -42,7 +42,7 @@
                         <div class="d-flex">
                           <div class="wrapper">
                             
-                            <h5 class="mb-0 font-weight-medium text-primary">Pending</h5>
+                            <h5 class="mb-0 font-weight-medium text-primary">No Of Experts</h5>
                             <h3 class="mb-0 font-weight-semibold">9</h3>
                           </div>
                           <div class="wrapper my-auto ml-auto ml-lg-4">
@@ -53,12 +53,12 @@
                       <div class="col-lg-3 col-md-6 mt-md-0 mt-4">
                         <div class="d-flex">
                           <div class="wrapper">
-                            {{-- <h3 class="mb-0 font-weight-semibold">1,553</h3> --}}
-                            <p><a href = "#"><button>SUPPORT</button></a></p>
-                            {{-- <p class="mb-0 text-muted">+138.97(+0.54%)</p> --}}
+                            
+                            <h5 class="mb-0 font-weight-medium text-primary">No Of Clients</h5>
+                            <h3 class="mb-0 font-weight-semibold">9</h3>
                           </div>
-                          <div class="wrapper my-auto ml-auto ml-lg-4" height="50" width="100">
-                            {{-- <i class="fa fa-group"  ></i> --}}
+                          <div class="wrapper my-auto ml-auto ml-lg-4">
+                            <canvas height="50" width="100" id="stats-line-graph-3"></canvas>
                           </div>
                         </div>
                       </div>

@@ -1,4 +1,4 @@
-@extends ('layouts.main')
+@extends ('layouts.main2')
 
 @section ('content')
 
@@ -18,7 +18,7 @@
                         <div class="d-flex">
                           <div class="wrapper">
                             
-                            <h5 class="mb-0 font-weight-medium text-primary">My Requests</h5>
+                            <h5 class="mb-0 font-weight-medium text-primary">Assigned</h5>
                             <h3 class="mb-0 font-weight-semibold">13</h3>
                           </div>
                           <div class="wrapper my-auto ml-auto ml-lg-4">
@@ -30,7 +30,7 @@
                         <div class="d-flex">
                           <div class="wrapper">
                             
-                            <h5 class="mb-0 font-weight-medium text-primary">Completed</h5>
+                            <h5 class="mb-0 font-weight-medium text-primary">Active</h5>
                             <h3 class="mb-0 font-weight-semibold">5</h3>
                           </div>
                           <div class="wrapper my-auto ml-auto ml-lg-4">
@@ -42,7 +42,7 @@
                         <div class="d-flex">
                           <div class="wrapper">
                             
-                            <h5 class="mb-0 font-weight-medium text-primary">Pending</h5>
+                            <h5 class="mb-0 font-weight-medium text-primary">Completed</h5>
                             <h3 class="mb-0 font-weight-semibold">9</h3>
                           </div>
                           <div class="wrapper my-auto ml-auto ml-lg-4">
