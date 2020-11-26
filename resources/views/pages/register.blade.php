@@ -6,7 +6,7 @@
         <div class="content-wrapper d-flex align-items-center auth register-bg-1 theme-one">
           <div class="row w-100">
             <div class="col-lg-4 mx-auto">
-              <h2 class="text-center mb-4">You're Welcome!</h2>
+              <h2 class="text-center mb-4">Micheal Stevens SME Advisory Portal</h2>
               <p class="text-center mb-2">Fill the form to be part of us! </p>
               <div class="auto-form-wrapper">
                 <form action="#">
