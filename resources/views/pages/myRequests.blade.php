@@ -32,8 +32,8 @@
                             <label class="badge badge-danger">Pending</label>
                           </td>
             <td>
-              <button type="button" class="btn btn-primary2"><i class="fa fa-eye"></i></button>
-              <button type="button" class="btn btn-success3"><i class="fa fa-edit"></i></button>
+           <button type="button" class="btn btn-primary2"><i class="fa fa-eye"></i></button>
+             <a href ="/new_request">    <button type="button" class="btn btn-success"><i class="fa fa-edit"></i></button></a>
             <button type="button" class="btn btn-danger2"><i class="fa fa-trash"></i></button>
             </td>
           </tr>
@@ -47,7 +47,7 @@
                           </td>
             <td>
               <button type="button" class="btn btn-primary2"><i class="fa fa-eye"></i></button>
-              <button type="button" class="btn btn-success3"><i class="fa fa-edit"></i></button>
+            <a href ="/new_request">   <button type="button" class="btn btn-success"><i class="fa fa-edit"></i></button>
             <button type="button" class="btn btn-danger2"><i class="fa fa-trash"></i></button>
             </td>
           </tr>
@@ -61,7 +61,7 @@
                           </td>
             <td>
               <button type="button" class="btn btn-primary2"><i class="fa fa-eye"></i></button>
-              <button type="button" class="btn btn-success3"><i class="fa fa-edit"></i></button>
+             <a href ="/new_request">  <button type="button" class="btn btn-success"><i class="fa fa-edit"></i></button>
             <button type="button" class="btn btn-danger2"><i class="fa fa-trash"></i></button>
             </td>
           </tr>
@@ -75,7 +75,7 @@
                           </td>
             <td>
               <button type="button" class="btn btn-primary2"><i class="fa fa-eye"></i></button>
-              <button type="button" class="btn btn-success3"><i class="fa fa-edit"></i></button>
+            <a href ="/new_request">   <button type="button" class="btn btn-success"><i class="fa fa-edit"></i></button>
             <button type="button" class="btn btn-danger2"><i class="fa fa-trash"></i></button>
             </td>
           </tr>

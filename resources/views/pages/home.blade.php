@@ -19,7 +19,7 @@
                           <div class="wrapper">
                             
                             <h5 class="mb-0 font-weight-medium text-primary">My Requests</h5>
-                            <h3 class="mb-0 font-weight-semibold">32,451</h3>
+                            <h3 class="mb-0 font-weight-semibold">13</h3>
                           </div>
                           <div class="wrapper my-auto ml-auto ml-lg-4">
                            <canvas height="50" width="100" id="stats-line-graph-1" class="chartjs-render-monitor" style="display: flex;"></canvas>
@@ -31,7 +31,7 @@
                           <div class="wrapper">
                             
                             <h5 class="mb-0 font-weight-medium text-primary">Completed</h5>
-                            <h3 class="mb-0 font-weight-semibold">15,236</h3>
+                            <h3 class="mb-0 font-weight-semibold">5</h3>
                           </div>
                           <div class="wrapper my-auto ml-auto ml-lg-4">
                             <canvas height="50" width="100" id="stats-line-graph-2"></canvas>
@@ -43,7 +43,7 @@
                           <div class="wrapper">
                             
                             <h5 class="mb-0 font-weight-medium text-primary">Pending</h5>
-                            <h3 class="mb-0 font-weight-semibold">7,688</h3>
+                            <h3 class="mb-0 font-weight-semibold">9</h3>
                           </div>
                           <div class="wrapper my-auto ml-auto ml-lg-4">
                             <canvas height="50" width="100" id="stats-line-graph-3"></canvas>
@@ -54,11 +54,11 @@
                         <div class="d-flex">
                           <div class="wrapper">
                             {{-- <h3 class="mb-0 font-weight-semibold">1,553</h3> --}}
-                            <h1 class="mb-0 font-weight-medium text-primary">Support</h1>
+                            <p><a href = "https://michaelstevens-consulting.com/contact-us/"><button>SUPPORT</button></a></p>
                             {{-- <p class="mb-0 text-muted">+138.97(+0.54%)</p> --}}
                           </div>
                           <div class="wrapper my-auto ml-auto ml-lg-4" height="50" width="100">
-                            <i class="fa fa-group"  ></i>
+                            {{-- <i class="fa fa-group"  ></i> --}}
                           </div>
                         </div>
                       </div>
@@ -124,56 +124,50 @@
                     <div class="card">
                       <div class="card-body">
                         <div class="d-flex justify-content-between">
-                          <h4 class="card-title mb-0">Invoice</h4>
-                          <a href="#"><small>Show All</small></a>
+                          <h4 class="card-title mb-0">My Requests</h4>
+                          <a href="myRequests"><small>Show All</small></a>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est quod cupiditate esse fuga</p>
+                        <p>Here are your Recent Requests</p>
                         <div class="table-responsive">
                           <table class="table table-striped table-hover">
                             <thead>
                               <tr>
-                                <th>Invoice ID</th>
-                                <th>Customer</th>
+                                <th>Request ID</th>
+                                <th>Subject</th>
                                 <th>Status</th>
-                                <th>Due Date</th>
-                                <th>Amount</th>
+                                
                               </tr>
                             </thead>
                             <tbody>
                               <tr>
                                 <td>INV-87239</td>
-                                <td>Viola Ford</td>
-                                <td>Paid</td>
-                                <td>20 Jan 2019</td>
-                                <td>$755</td>
+                                <td>Loan</td>
+                                <td>Pending</td>
+                                
                               </tr>
                               <tr>
                                 <td>INV-87239</td>
-                                <td>Dylan Waters</td>
-                                <td>Unpaid</td>
-                                <td>23 Feb 2019</td>
-                                <td>$800</td>
+                                <td>Suggestions</td>
+                                <td>Completed</td>
+                                
                               </tr>
                               <tr>
                                 <td>INV-87239</td>
-                                <td>Louis Poole</td>
-                                <td>Unpaid</td>
-                                <td>25 Mar 2019</td>
-                                <td>$463</td>
+                                <td>Review</td>
+                                <td>Fixed</td>
+                                
                               </tr>
                               <tr>
                                 <td>INV-87239</td>
-                                <td>Vera Howell</td>
-                                <td>Paid</td>
-                                <td>27 Mar 2019</td>
-                                <td>$235</td>
+                                <td>Loan</td>
+                                <td>In progress</td>
+                                
                               </tr>
                               <tr>
                                 <td>INV-87239</td>
-                                <td>Allie Goodman</td>
-                                <td>Unpaid</td>
-                                <td>1 Apr 2019</td>
-                                <td>$657</td>
+                                <td>Bugging</td>
+                                <td>Completed</td>
+                                
                               </tr>
                             </tbody>
                           </table>
@@ -351,34 +345,34 @@
               <div class="col-md-4 grid-margin stretch-card">
                 <div class="card">
                   <div class="card-body">
-                    <h4 class="card-title mb-0">Recent Events</h4>
+                    <h4 class="card-title mb-0">Upcoming Events</h4>
                     <div class="d-flex py-2 border-bottom">
                       <div class="wrapper">
                         <small class="text-muted">Mar 14, 2019</small>
                         <p class="font-weight-semibold text-gray mb-0">Change in Directors</p>
                       </div>
-                      <small class="text-muted ml-auto">Edit event</small>
+                      
                     </div>
                     <div class="d-flex py-2 border-bottom">
                       <div class="wrapper">
                         <small class="text-muted">Mar 14, 2019</small>
                         <p class="font-weight-semibold text-gray mb-0">Other Events</p>
                       </div>
-                      <small class="text-muted ml-auto">Edit event</small>
+                      
                     </div>
                     <div class="d-flex py-2 border-bottom">
                       <div class="wrapper">
                         <small class="text-muted">Mar 14, 2019</small>
                         <p class="font-weight-semibold text-gray mb-0">Quarterly Report</p>
                       </div>
-                      <small class="text-muted ml-auto">Edit event</small>
+                    
                     </div>
                     <div class="d-flex pt-2">
                       <div class="wrapper">
                         <small class="text-muted">Mar 14, 2019</small>
                         <p class="font-weight-semibold text-gray mb-0">Change in Directors</p>
                       </div>
-                      <small class="text-muted ml-auto">Edit event</small>
+                      
                     </div>
                     <a class="d-block mt-5" href="#">Show all</a>
                   </div>
@@ -387,9 +381,9 @@
               <div class="col-md-4 grid-margin stretch-card">
                 <div class="card">
                   <div class="card-body">
-                    <div class="d-flex justify-content-between pb-3">
-                      <h4 class="card-title mb-0">Activities</h4>
-                      <p class="mb-0 text-muted">20 finished, 5 remaining</p>
+                    <div class="d-flex  pb-3">
+                      <h4 class="card-title mb-0">Recent Events</h4>
+                      
                     </div>
                     <ul class="timeline">
                       <li class="timeline-item">
@@ -404,10 +398,7 @@
                         <p class="timeline-content"><a href="#">Ben Tossell</a> assign you a task</p>
                         <p class="event-time">Just now</p>
                       </li>
-                      <li class="timeline-item">
-                        <p class="timeline-content"><a href="#">Ben Tossell</a> assign you a task</p>
-                        <p class="event-time">Just now</p>
-                      </li>
+                      
                       <li class="timeline-item">
                         <p class="timeline-content"><a href="#">Ben Tossell</a> assign you a task</p>
                         <p class="event-time">Just now</p>
@@ -420,49 +411,49 @@
               <div class="col-md-4 grid-margin stretch-card">
                 <div class="card">
                   <div class="card-body">
-                    <h4 class="card-title mb-0">People Also Watch</h4>
+                    <h4 class="card-title mb-0">Experts Profile</h4>
                     <div class="table-responsive">
                       <table class="table table-stretched">
                         <thead>
                           <tr>
-                            <th>Symbol</th>
-                            <th>Last Price</th>
-                            <th>Change</th>
+                            <th>Name</th>
+                            <th>Experience</th>
+                            <th>Area</th>
                           </tr>
                         </thead>
                         <tbody>
                           <tr>
                             <td>
-                              <p class="mb-1 text-dark font-weight-medium">NFLX</p><small class="font-weight-medium">Netflix, Inc.</small>
+                              <p class="mb-1 text-dark font-weight-medium">Joel Olayinka</p><small class="font-weight-medium">Netflix, Inc.</small>
                             </td>
-                            <td class="font-weight-medium">$250.00</td>
-                            <td class="text-success font-weight-medium">+12.64</td>
+                            <td class="font-weight-medium">5 years</td>
+                            <td class="text-success font-weight-medium">Bio</td>
                           </tr>
                           <tr>
                             <td>
-                              <p class="mb-1 text-dark font-weight-medium">TSLA</p><small class="font-weight-medium">Tesla, Inc.</small>
+                              <p class="mb-1 text-dark font-weight-medium">David Alaba </p><small class="font-weight-medium">Tesla, Inc.</small>
                             </td>
-                            <td class="font-weight-medium">$458.00</td>
-                            <td class="text-danger font-weight-medium">-14.53</td>
+                            <td class="font-weight-medium">1 year</td>
+                            <td class="text-danger font-weight-medium">Chem</td>
                           </tr>
                           <tr>
                             <td>
-                              <p class="mb-1 text-dark font-weight-medium">GOOG</p><small class="font-weight-medium">Alphabet, Inc.</small>
+                              <p class="mb-1 text-dark font-weight-medium">Niyi Sobole</p><small class="font-weight-medium">Alphabet, Inc.</small>
                             </td>
-                            <td class="font-weight-medium">$250.00</td>
-                            <td class="text-danger font-weight-medium">+12.64</td>
+                            <td class="font-weight-medium">10 years</td>
+                            <td class="text-danger font-weight-medium">Photo</td>
                           </tr>
                           <tr>
                             <td>
-                              <p class="mb-1 text-dark font-weight-medium">AMZN</p><small class="font-weight-medium">Amazon.com, Inc.</small>
+                              <p class="mb-1 text-dark font-weight-medium">Siji Bomi</p><small class="font-weight-medium">Amazon.com, Inc.</small>
                             </td>
-                            <td class="font-weight-medium">$546.00</td>
-                            <td class="text-success font-weight-medium">+24.34</td>
+                            <td class="font-weight-medium">1 years</td>
+                            <td class="text-success font-weight-medium">tech</td>
                           </tr>
                         </tbody>
                       </table>
                     </div>
-                    <a class="d-block mt-3" href="#">Show all</a>
+                    <a class="d-block mt-3" href="/expertProfile">View all</a>
                   </div>
                 </div>
               </div>
