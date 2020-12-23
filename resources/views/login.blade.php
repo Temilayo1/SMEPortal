@@ -14,16 +14,18 @@
                 <p class="text-center mb-4">Login into your account!</p>
               <div class="auto-form-wrapper">
                 <form action="#">
-                  <div class="form-group">
-                    <label class="label">Username</label>
+                <div class="form-group">
+                <label class="label">Email Address</label>
+
                     <div class="input-group">
-                      <input type="text" class="form-control" placeholder="Username">
+                      <input type="text" class="form-control" placeholder="Email Address">
                       <div class="input-group-append">
                         <span class="input-group-text">
                           <i class="mdi mdi-check-circle-outline"></i>
                         </span>
                       </div>
                     </div>
+                 
                   </div>
                   <div class="form-group">
                     <label class="label">Password</label>
@@ -64,12 +66,23 @@
                   <a href="#">Terms</a>
                 </li>
               </ul>
-              <p class="footer-text text-center">copyright © 2018 Bootstrapdash. All rights reserved.</p>
+              <p class="footer-text text-center">copyright © 2020 Michael Stevens SME Advisory. All rights reserved.</p>
             </div>
           </div>
         </div>
         <!-- content-wrapper ends -->
       </div>
-      <!-- page-body-wrapper ends -->
+       <!-- page-body-wrapper ends -->
     </div>
+    <!-- container-scroller -->
+    <!-- plugins:js -->
+    <script src="../../../assets/vendors/js/vendor.bundle.base.js"></script>
+    <script src="../../../assets/vendors/js/vendor.bundle.addons.js"></script>
+    <!-- endinject -->
+    <!-- inject:js -->
+    <script src="../../../assets/js/shared/off-canvas.js"></script>
+    <script src="../../../assets/js/shared/misc.js"></script>
+    <!-- endinject -->
+  </body>
+</html>
       @endsection
