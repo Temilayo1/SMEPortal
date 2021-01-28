@@ -7,13 +7,13 @@
           <div class="row w-100">
             <div class="col-lg-4 mx-auto">
               <h4 class="text-center mb-4">Micheal Stevens SME Advisory Portal</h4>
-              <p class="text-center mb-2">Fill the form to be part of us! </p>
+              <p class="text-center mb-2">Fill in your business information to continue </p>
               <div class="auto-form-wrapper">
                 <form action="#">
                 <div class="form-group">
-                <label class="label">First Name</label>
+                <label class="label">What's your business name?</label>
                     <div class="input-group">
-                      <input type="text" class="form-control" placeholder="First Name">
+                      <input type="text" class="form-control" placeholder=" Name">
                       <div class="input-group-append">
                         <span class="input-group-text">
                           <i class="mdi mdi-check-circle-outline"></i>
@@ -22,9 +22,10 @@
                     </div>
                   </div>
                   <div class="form-group">
-                  <label class="label">Last Name</label>
+                  <label class="label">Type of business?</label>
+
                     <div class="input-group">
-                      <input type="text" class="form-control" placeholder="Last Name">
+                      <input type="text" class="form-control" placeholder=" Type">
                       <div class="input-group-append">
                         <span class="input-group-text">
                           <i class="mdi mdi-check-circle-outline"></i>
@@ -34,7 +35,33 @@
                   </div>
 
                   <div class="form-group">
-                  <label class="label">Email Address</label>
+                  <label class="label">RC Number</label>
+
+                    <div class="input-group">
+                      <input type="text" class="form-control" placeholder=" RC Number">
+                      <div class="input-group-append">
+                        <span class="input-group-text">
+                          <i class="mdi mdi-check-circle-outline"></i>
+                        </span>
+                      </div>
+                    </div>
+                  </div>   
+
+                  
+                  <div class="form-group">
+                  <label class="label">Office Address</label>
+
+                    <div class="input-group">
+                      <input type="text" class="form-control" placeholder="  Address">
+                      <div class="input-group-append">
+                        <span class="input-group-text">
+                          <i class="mdi mdi-check-circle-outline"></i>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                  <label class="label">Business Email Address</label>
 
                     <div class="input-group">
                       <input type="text" class="form-control" placeholder="Email Address">
@@ -44,7 +71,7 @@
                         </span>
                       </div>
                     </div>
-                  </div>    
+                  </div>
                   <div class="form-group">
                   <label class="label">Phone Number</label>
                     <div class="input-group">
@@ -56,10 +83,11 @@
                       </div>
                     </div>
                   </div>
-                  <div class="form-group">
-                  <label class="label">Contact Address</label>
+                 <div class="form-group">
+                  <label class="label">Business Website</label>
+
                     <div class="input-group">
-                      <input type="text" class="form-control" placeholder="  Address">
+                      <input type="text" class="form-control" placeholder="  Website">
                       <div class="input-group-append">
                         <span class="input-group-text">
                           <i class="mdi mdi-check-circle-outline"></i>
@@ -67,47 +95,60 @@
                       </div>
                     </div>
                   </div>
+                  <div class="form-group row">
+                      <div class="col-md-4">
+                          <div class="form-group column">
+                          
+                          <label class="label">What's your Customer Base?</label>
+                            <div class="col-sm-0">
+                              <select class="form-control">
+                                <option>0 &nbsp;   > 100</option>
+                                <option>100 > 400</option>
+                                <option>500 > 1M</option>
+                              </select>
+                            </div>
+                          </div>
+                          
+                        </div>
+                        
+                        &nbsp;
+                        &nbsp;
+                        &nbsp;
+                       
+                        
+                        
+                        &nbsp;&nbsp;
+                        &nbsp;&nbsp;
+                        &nbsp;&nbsp;
+                        &nbsp;&nbsp;
+                        &nbsp;&nbsp;
+                        &nbsp;&nbsp;
+                        
+                        &nbsp;
+                        
+                        <div class="col-md-4">
+                                          <div class="form-group column">
+                                          <label class="label">Annual-Turn <br>Over ?</label>
+                            <div class="col-sm-0">
+                            
+                              <select class="form-control">
+                                <option>100k > 500k</option>
+                                <option>500k > 1M</option>
+                                <option>1M > 5M</option>
+                              </select>
+                            </div>
+                          </div>
+                        </div>     
+                        </div>
+                        </div> 
                   
+                  
+                  
+                    
                   <div class="form-group">
-                  <label class="label">Enter Password</label>
-                    <div class="input-group">
-                      <input type="password" class="form-control" placeholder="Enter Password">
-                      <div class="input-group-append">
-                        <span class="input-group-text">
-                          <i class="mdi mdi-check-circle-outline"></i>
-                        </span>
-                      </div>
-                    </div>
+                 <a href = "/home">   <button class="btn btn-primary submit-btn btn-block">CONTINUE</button></a>
                   </div>
-                  <div class="form-group">
-                  <label class="label">Confirm Password</label>
-                    <div class="input-group">
-                      <input type="password" class="form-control" placeholder="Confirm Password">
-                      <div class="input-group-append">
-                        <span class="input-group-text">
-                          <i class="mdi mdi-check-circle-outline"></i>
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                      
                   
-                  
-                  
-                    <div class="form-group d-flex justify-content-center">
-                    <div class="form-check form-check-flat mt-0">
-                      <label class="form-check-label">
-                        <input type="checkbox" class="form-check-input" checked> I agree to the terms </label>
-                    </div>
-                  </div>
-                  <div class="form-group">
-                
-                 <button class="btn btn-primary submit-btn btn-block"><a href = "/bizInfo">  SUBMIT</a></button>
-                  </div>
-                  <div class="text-block text-center my-3">
-                    <span class="text-small font-weight-semibold">Already have an account ?</span>
-                    <a href="/login" class="text-black text-small">Login</a>
-                  </div>
                 </form>
               </div>
             </div>

@@ -109,31 +109,23 @@
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" data-toggle="collapse" href="#auth" aria-expanded="false" aria-controls="auth">
-                <i class="menu-icon typcn typcn-document-add"></i>
-                <span class="menu-title">News & Events</span>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <a class="nav-link" href="http://smeadvisory.michaelstevens-consulting.com/blog/">
+                <i class="menu-icon typcn typcn-user-outline"></i>
+                <span class="menu-title">News</span>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <i class="fa fa-bullhorn"></i>
               </a>
-
-              
-              <div class="collapse" id="auth">
-                    <ul class="nav flex-column sub-menu">
-                    <li class="nav-item">
-                    <a class="nav-link" href="/news">Events & News</a>
-                  </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="/admin/new_event"> Add New Event</a>
-                  </li>
-                  </li>
-                   
-                  
-                  
-                </ul>
-              </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="http://smeadvisory.michaelstevens-consulting.com/blog/">
+                <i class="menu-icon typcn typcn-user-outline"></i>
+                <span class="menu-title">Events</span>
+                &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <i class="fa fa-calendar-plus-o"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/feedback">
                 <i class="menu-icon typcn typcn-shopping-bag"></i>
                 <span class="menu-title">Feedbacks</span>
                &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

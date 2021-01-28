@@ -52,7 +52,7 @@
                
 
             <li class="nav-item">
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="feedback">
                 <i class="menu-icon typcn typcn-shopping-bag"></i>
                 <span class="menu-title">Feedbacks</span>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -60,13 +60,20 @@
               </a>
             </li>
             
-          
             <li class="nav-item">
-              <a class="nav-link" href="/news">
+              <a class="nav-link" href="http://smeadvisory.michaelstevens-consulting.com/blog/">
                 <i class="menu-icon typcn typcn-user-outline"></i>
-                <span class="menu-title">News & Events</span>
-                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <span class="menu-title">News</span>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <i class="fa fa-bullhorn"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="http://smeadvisory.michaelstevens-consulting.com/blog/">
+                <i class="menu-icon typcn typcn-user-outline"></i>
+                <span class="menu-title">Events</span>
+                &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <i class="fa fa-calendar-plus-o"></i>
               </a>
             </li>
              <li class="nav-item">

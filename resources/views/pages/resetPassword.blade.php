@@ -37,8 +37,8 @@
                     </div>
                   </div> -->
                   <div class="form-group">
-                    <button class="btn btn-primary submit-btn btn-block"><a href="/home">Reset</button>
-                  </div>
+                  <a href="/home"><button class="btn btn-primary submit-btn btn-block">SUBMIT</button>
+                  </div></a>
                   <!-- <div class="form-group d-flex justify-content-between">
                     <div class="form-check form-check-flat mt-0">
                       <label class="form-check-label">

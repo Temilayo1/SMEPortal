@@ -13,13 +13,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 Route::get('/', function () {
-    return view('register');
+    return view('login');
 });
 
 // client
 Route::get('/register', 'PagesController@register');
 Route::get('/login', 'PagesController@login');
 Route::get('/resetPassword', 'PagesController@resetPassword');
+Route::get('/bizInfo', 'PagesController@bizInfo');
+Route::get('/feedback', 'PagesController@feedback');
+Route::get('/pricing', 'PagesController@pricing');
 
 Route::get('/home', 'PagesController@home');
 Route::get('/new_request', 'PagesController@new_request');

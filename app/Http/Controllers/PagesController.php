@@ -16,12 +16,18 @@ class PagesController extends Controller
     public function resetPassword(){
         return view ('pages.resetPassword');
     }
-    
-
+    public function bizInfo(){
+        return view ('pages.bizInfo');
+    }
+    public function feedback(){
+        return view ('pages.feedback');
+    }
     public function home(){
         return view ('pages.home');
     }
-    
+    public function pricing(){
+        return view ('pages.pricing');
+    }
     public function new_request(){
         return view ('pages.new_request');
     }

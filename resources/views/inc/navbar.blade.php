@@ -2,7 +2,7 @@
 <nav class="navbar default-layout col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
   <div class="text-center navbar-brand-wrapper d-flex align-items-top justify-content-center">
     <a class="navbar-brand brand-logo" href="/home">
-      <img src="https://res.cloudinary.com/temilayon/image/upload/v1605776900/MSC_Logo_zv7xgp.png" alt="logo" /> </a>
+      <img src="#" alt="logo" /> </a>
 
   </div>
   <div class="navbar-menu-wrapper d-flex align-items-center">
